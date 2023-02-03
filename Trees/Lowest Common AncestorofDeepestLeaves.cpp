@@ -27,7 +27,6 @@ public:
 
         else
             return lcaDeepestLeaves(root->right);
-       
         
     }
 };
