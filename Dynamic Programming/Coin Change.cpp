@@ -13,7 +13,6 @@ public:
                  dp[i][j]=0;
         }
      }
-
      //processing for only 2nd row i.e i=1
      for(int j=0;j<amount+1;j++){
              if(j % coins[0]==0)
