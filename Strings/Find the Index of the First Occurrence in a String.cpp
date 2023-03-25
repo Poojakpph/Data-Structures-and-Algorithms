@@ -4,6 +4,7 @@ public:
         if(haystack.size()<needle.size())  
              return -1;
 
+     
         int i=0;
         int j=0;
         int index=0;
