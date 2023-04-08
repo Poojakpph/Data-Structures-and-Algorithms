@@ -19,7 +19,7 @@ int starting(vector<int>& nums, int target){   // fun for leftmost or starting i
      }
      return ans;
  }
-
+     
 int ending(vector<int>& nums, int target){   // fun for rightmost or ending index
      int s=0;
      int e=nums.size()-1;
