@@ -9,7 +9,7 @@ class Solution
         if(root==NULL)
           return ans;
         
-        queue<pair<Node*, int>> q;  //stores node value and horizontal distance
+        queue<pair<Node*, int>> q; //stores node value and horizontal distance
         q.push({root,0});
         
         map<int,int> mp;  //stores horizontal distance and node value
