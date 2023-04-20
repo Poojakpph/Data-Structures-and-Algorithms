@@ -3,7 +3,7 @@ class Solution
     public:
     vector<int> topView(Node *root)
     {
-         //key point- we can't use recursive approach
+        //key point- we can't use recursive approach
         vector<int> ans;
         
         if(root==NULL)
