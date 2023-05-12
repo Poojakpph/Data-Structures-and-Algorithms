@@ -1,6 +1,7 @@
 class Solution {
 public:  
     
+    
     bool subsetsum(vector<int>& nums, int sum){ 
         int n=nums.size();
         int dp[n+1][sum+1];    //declare
